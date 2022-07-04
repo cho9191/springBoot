@@ -9,8 +9,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 	System.out.println("test789000");
 	System.out.println("abc");
-	System.out.println("010203");
-	System.out.println("040506");
+	System.out.println("a1a2a3");
+	System.out.println("456");
 	System.out.println("789");
 		SpringApplication.run(DemoApplication.class, args);
 	}
