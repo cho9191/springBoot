@@ -27,4 +27,15 @@ public class Controller {
         System.out.println("username : "+username+"   sessionId : "+sessionId);
 
     }
+
+    @GetMapping("/index2")
+    public void index2(@AuthenticationPrincipal User user, HttpSession httpSession){
+
+        String username = user.getUsername();
+
+        String sessionId = httpSession.getId();
+
+        System.out.println("username : "+username+"   sessionId : "+sessionId);
+
+    }
 }
